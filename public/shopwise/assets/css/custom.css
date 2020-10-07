@@ -1,0 +1,125 @@
+:root {
+	--font-family-sans-serif: "Nunito", sans-serif;
+	--font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+body {
+	margin: 0;
+	font-family: "Nunito", sans-serif;
+	font-size: 0.9rem;
+	font-weight: 400;
+	line-height: 1.6;
+	color: #212529;
+	text-align: left;
+	background-color: #f8fafc;
+}
+
+.tooltip {
+	position: absolute;
+	z-index: 1070;
+	display: block;
+	margin: 0;
+	font-family: "Nunito", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.6;
+	text-align: left;
+	text-align: start;
+	text-decoration: none;
+	text-shadow: none;
+	text-transform: none;
+	letter-spacing: normal;
+	word-break: normal;
+	word-spacing: normal;
+	white-space: normal;
+	line-break: auto;
+	font-size: 0.7875rem;
+	word-wrap: break-word;
+	opacity: 0;
+}
+
+.popover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1060;
+	display: block;
+	max-width: 276px;
+	font-family: "Nunito", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.6;
+	text-align: left;
+	text-align: start;
+	text-decoration: none;
+	text-shadow: none;
+	text-transform: none;
+	letter-spacing: normal;
+	word-break: normal;
+	word-spacing: normal;
+	white-space: normal;
+	line-break: auto;
+	font-size: 0.7875rem;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 0.3rem;
+}
+
+.card, .custom-select, .form-control, .btn, .input-group-text {
+	border-radius: 0 !important;
+}
+
+.dropdown-header, .dropdown-item {
+	padding: .25rem 1rem !important;
+}
+
+table.dataTable {
+	border-collapse: collapse !important;
+}
+
+div.dataTables_wrapper div.dataTables_length {
+	float: left;
+}
+
+div.dataTables_wrapper div.dataTables_filter {
+	float: right;
+}
+
+div.dataTables_wrapper div.dataTables_info {
+	float: left;
+}
+
+div.dataTables_wrapper div.dataTables_paginate {
+	float: right;
+}
+
+div.dataTables_wrapper div.dataTables_length,
+div.dataTables_wrapper div.dataTables_filter,
+div.dataTables_wrapper div.dataTables_info,
+div.dataTables_wrapper div.dataTables_paginate {
+	text-align: justify !important;
+}
+
+.table-responsive > .table-bordered {
+    border: 1px solid #ddd !important;
+}
+
+hr {
+	margin-top: 1rem !important;
+	margin-bottom: .5rem !important;
+}
+
+.table > tbody > tr > td {
+	vertical-align: middle;
+}
+
+.table-classes td p {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.cke_chrome {
+	border: 1px solid rgba(0,0,0,.15) !important;
+}

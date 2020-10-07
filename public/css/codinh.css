@@ -1,0 +1,9 @@
+#fixNav{
+  width: 100%;
+  background-color: #265325;
+  display: block;
+  position: fixed; /*Cho menu cố định 1 vị trí với top và left*/
+  top: 50px; /*Nằm trên cùng*/
+  left: 0; /*Nằm sát bên trái*/
+  z-index: 100; /*Hiển thị lớp trên cùng*/
+}
